@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>占い</title>
+
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+  <script src="./js/jquery-2.0.3.min.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+
+  <script src="./js/bootstrap-datepicker.js" type="text/javascript"></script>
+  <link href="./css/datepicker3.css" rel="stylesheet" type="text/css" media="screen,projection" />
+  <script src="./js/bootstrap-datepicker.ja.js" type="text/javascript"></script>
+  <script src="./js/fortune_salman_form.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('.set_datepicker :input,.set_datepicker:input')
+        .attr("readonly", "readonly")
+        .datepicker({
+          format: 'yyyy-mm-dd',
+          language: "ja",
+          startView: 2
+        });
+      $("body").change(function () {
+        $("span[name=family_name]").text($("input[name=family_name]").val());
+        $("span[name=name]").text($("input[name=name]").val());
+        $("span[name=birth_day]").text($("input[name=birth_day]").val());
+        var $objects = $("input[name=fortune_telling_names]:checked");
+        var list = [];
+        for (var i = 0; i < $objects.length; i++) {
+          var $obj = $($objects[i]);
+          list.push($obj.parent().children("label").text());
+        }
+        $("span[name=fortune_telling_names]").text(list.join(", "));
+      }).change();
+      renderFortuneTelling();
+    });
+  </script>
+  <style type="text/css">
+    .align-center {
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body role="document">
+  <div class="container">
+    <div class="page-header align-center">
+      <h1>
+        FortuneSalmon
+      </h1>
+    </div>
+    <div id="content">
+      <div id="main">
+        <div class="panel panel-primary" id="form">
+          <div class="panel-heading">
+            <h4>占い入力フォーム</h4>
+          </div>
+          <table class="table table-bordered">
+            <tbody>
+              <tr id="family_name">
+                <th>姓</th>
+                <td>
+                  <div id="family_name_error" style="display: none;">入力が必須です。</div>
+                  <input autocomplete="off" class="form-control" name="family_name" />
+                </td>
+              </tr>
+              <tr id="name">
+                <th>名</th>
+                <td>
+                  <div id="name_error" style="display: none;">入力が必須です。</div>
+                  <input autocomplete="off" class="form-control" name="name" />
+                </td>
+              </tr>
+              <tr id="birth_day">
+                <th>生年月日</th>
+                <td>
+                  <div id="birth_day_error" style="display: none;">入力が必須です。</div>
+                  <input autocomplete="off" class="set_datepicker form-control" name="birth_day" />
+                </td>
+              </tr>
+              <tr id="fortune_telling_names">
+                <th>占いを選択して下さい
+                </th>
+                <td>
+                  <div id="fortune_telling_names_error" style="display: none;">入力が必須です。</div>
+                  <ul>
+                    <li>
+                      <label for="error" class="checkbox">
+                        <input autocomplete="off" name="fortune_telling_names" id="error" value="error" type="checkbox" />
+                        <label for="error">Error</label>
+                    </li>
+                    <li>
+                      <label for="error2" class="checkbox">
+                        <input autocomplete="off" name="fortune_telling_names" id="error2" value="error2" type="checkbox" />
+                        <label for="error2">Error2</label>
+                    </li>
+                    <li>
+                      <label for="error3" class="checkbox">
+                        <input autocomplete="off" name="fortune_telling_names" id="error3" value="error3" type="checkbox" />
+                        <label for="error3">Error3</label>
+                    </li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="panel-footer align-center">
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#ModalDelete">占う</button>
+          </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="ModalDelete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header" style="background-color: #eea236;">
+                <button type="button" class="close" data-dismiss="modal">
+                  <span aria-hidden="true">&times;</span>
+                  <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title text-center" id="myModalLabel">確認</h4>
+              </div>
+              <table class="table table-bordered">
+                <tr>
+                  <th>姓</th>
+                  <td>
+                    <span name="family_name"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>名</th>
+                  <td>
+                    <span name="name"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>生年月日</th>
+                  <td>
+                    <span name="birth_day"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <th>占いを選択して下さい</th>
+                  <td>
+                    <span name="fortune_telling_names"></span>
+                  </td>
+                </tr>
+              </table>
+              <h3 class="text-center">上記の内容で占います。</h3>
+              <div class="modal-footer">
+                <button class="btn btn-lg btn-primary" onclick="postFortunetelling();" data-dismiss="modal">は い</button>
+                <button type="button" class="btn btn-lg btn-default" data-dismiss="modal">いいえ</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- /Modal -->
+        <div id="submit" style="display: none;">
+          <h1 class="align-center alert-success">
+            <br>ありがとうございました。
+            <br>
+            <br>結果が出力されるまでしばらくお待ち下さい。
+            <br>
+            <br>
+          </h1>
+          <br>
+          <br>
+          <br>
+          <br>
+          <button class="btn btn-primary" onclick="location.reload();">reset</button>
+        </div>
+        <div class="panel panel-info" id="explain">
+          <div class="panel-heading">
+            <h4>占いの説明</h4>
+          </div>
+          <center>
+            <img src="./images/animal.jpg" height="500px">
+            <img src="./images/bomb.jpg" height="500px">
+            <img src="./images/color.jpg" height="500px">
+            <img src="./images/name.jpg" height="500px">
+            <img src="./images/chara.jpg" height="500px">
+            <img src="./images/pi.jpg" height="500px">
+          </center>
+        </div>
+      </div>
+    </div>
+    <!-- /container -->
+  </div>
+</body>
+
+</html>

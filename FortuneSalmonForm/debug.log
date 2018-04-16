@@ -1,0 +1,330 @@
+[0430/135000.047:ERROR:process_info.cc(625)] range at 0xf43d597600000000, size 0x20d fully unreadable
+[0430/135002.092:ERROR:process_info.cc(625)] range at 0xf43d59da00000000, size 0x20d fully unreadable
+[0430/135002.092:ERROR:process_info.cc(625)] range at 0x0, size 0x20d fully unreadable
+[0430/135008.851:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ff653540000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.295:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0430/135010.295:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd62d0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\ntdll.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3570000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\KERNELBASE.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3ab0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\KERNEL32.DLL
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd0a40000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\system32\apphelp.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffba2260000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\AppPatch\AppPatch64\AcGenral.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5fa0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\msvcrt.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5e50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3a50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\sechost.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd23a0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\SspiCli.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2a20000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\ucrtbase.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd27c0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\bcryptPrimitives.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5650000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\combase.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3790000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\win32u.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd54e0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\USER32.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2830000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\gdi32full.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3f10000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\GDI32.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd6040000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\IMM32.DLL
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3c00000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\SHLWAPI.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3910000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\ole32.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3520000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\cfgmgr32.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2770000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\powrprof.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3860000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\advapi32.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2760000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\kernel.appcore.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd37b0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\shcore.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2740000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\profapi.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2c70000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\windows.storage.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x20df44f0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\SHELL32.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1e80000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\USERENV.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc83e0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\MPR.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1950000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\VERSION.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffba19a0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\58.0.3029.81\chrome_elf.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd54d0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\PSAPI.DLL
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd01e0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd0240000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMM.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbcf4b0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINHTTP.dll
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd21a0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.299:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL
+[0430/135010.299:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2bd0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\msvcp_win.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd6210000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\OLEAUT32.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc3e50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\ninput.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5460000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\WS2_32.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc2510000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.14393.953_none_42151e83c686086b\COMCTL32.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5d50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\COMDLG32.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc8780000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\dbghelp.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbb4aa0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\USP10.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2670000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\bcrypt.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbcb050000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1d80000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1980000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\Secur32.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc4110000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\DWrite.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2730000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\MSASN1.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3350000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.303:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\CRYPT32.dll
+[0430/135010.303:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd29c0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\WINTRUST.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffb85790000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\58.0.3029.81\chrome_child.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ff653540000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd62d0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\ntdll.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3570000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\KERNELBASE.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3ab0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\KERNEL32.DLL
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd0a40000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\system32\apphelp.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffba2260000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\AppPatch\AppPatch64\AcGenral.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5fa0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\msvcrt.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5e50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3a50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\sechost.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd23a0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\SspiCli.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2a20000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\ucrtbase.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd27c0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\bcryptPrimitives.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5650000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\combase.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3790000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\win32u.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd54e0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\USER32.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2830000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\gdi32full.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3f10000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\GDI32.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd6040000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\IMM32.DLL
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3c00000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\SHLWAPI.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3910000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\ole32.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3520000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\cfgmgr32.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2770000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\powrprof.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3860000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\advapi32.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2760000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\kernel.appcore.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd37b0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\shcore.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2740000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\profapi.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2c70000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\windows.storage.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x20df44f0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\SHELL32.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1e80000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\USERENV.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc83e0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\MPR.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1950000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\VERSION.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffba19a0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\58.0.3029.81\chrome_elf.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd54d0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\PSAPI.DLL
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd01e0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd0240000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMM.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbcf4b0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINHTTP.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd21a0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2bd0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\msvcp_win.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd6210000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\OLEAUT32.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc3e50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.307:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\ninput.dll
+[0430/135010.307:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5460000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\WS2_32.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc2510000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.14393.953_none_42151e83c686086b\COMCTL32.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5d50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\COMDLG32.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc8780000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\dbghelp.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbb4aa0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\USP10.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2670000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\bcrypt.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbcb050000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1d80000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1980000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\Secur32.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc4110000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\DWrite.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2730000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\MSASN1.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3350000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\CRYPT32.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd29c0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\WINTRUST.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffb85790000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\58.0.3029.81\chrome_child.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ff653540000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd62d0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\ntdll.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3570000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\KERNELBASE.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3ab0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\KERNEL32.DLL
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd0a40000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\system32\apphelp.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffba2260000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\AppPatch\AppPatch64\AcGenral.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5fa0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\msvcrt.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5e50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3a50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\sechost.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd23a0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\SspiCli.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2a20000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\ucrtbase.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd27c0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\bcryptPrimitives.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5650000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\combase.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3790000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\win32u.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd54e0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\USER32.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2830000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\gdi32full.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3f10000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\GDI32.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd6040000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\IMM32.DLL
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3c00000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\SHLWAPI.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3910000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\ole32.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3520000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\cfgmgr32.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2770000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\powrprof.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3860000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\advapi32.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2760000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\kernel.appcore.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd37b0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\shcore.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2740000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\profapi.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2c70000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\windows.storage.dll
+[0430/135010.311:ERROR:process_reader_win.cc(233)] ReadMemory at 0x20df44f0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.311:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\SHELL32.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1e80000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\USERENV.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc83e0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\MPR.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1950000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\VERSION.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffba19a0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\58.0.3029.81\chrome_elf.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd54d0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\PSAPI.DLL
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd01e0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd0240000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINMM.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbcf4b0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINHTTP.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd21a0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\CRYPTBASE.DLL
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2bd0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\msvcp_win.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd6210000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\OLEAUT32.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc3e50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\ninput.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5460000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\WS2_32.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc2510000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.14393.953_none_42151e83c686086b\COMCTL32.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd5d50000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\COMDLG32.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc8780000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\dbghelp.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbb4aa0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\USP10.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2670000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\bcrypt.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbcb050000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\WINSPOOL.DRV
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1d80000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd1980000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\Secur32.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbc4110000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\SYSTEM32\DWrite.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd2730000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\MSASN1.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd3350000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\CRYPT32.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffbd29c0000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\WINDOWS\System32\WINTRUST.dll
+[0430/135010.315:ERROR:process_reader_win.cc(233)] ReadMemory at 0x7ffb85790000 of 64 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.315:WARNING:pe_image_reader.cc(281)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\58.0.3029.81\chrome_child.dll
+[0430/135010.347:ERROR:process_reader_win.cc(233)] ReadMemory at 0xe87d1fb000 of 20480 bytes failed: ReadProcessMemory 要求または WriteProcessMemory 要求の一部だけを完了しました。 (0x12B)
+[0430/135010.347:ERROR:crash_report_exception_handler.cc(111)] WriteEverything failed
+[0430/135014.792:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: 既存のプロセスにアクセスしようとしました。  (0xc000010a)
